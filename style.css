@@ -1,5 +1,5 @@
 body {
-    background-color:  #6666ff;
+    background-color:  white;
 }
 
 h1 {
@@ -13,8 +13,11 @@ h1 {
     grid-template-rows: repeat(5, 1fr);
     background: white;
     text-align: center;
+    height: 500px;
 }
 
 .day {
-    border: red solid 1px;
+    border: #453443 solid 1px;
+    text-align: center;
+    
 }

@@ -1,10 +1,7 @@
-  var toAdd = document.createDocumentFragment();
-  for(var i=0; i < 11; i++){
-     var newDiv = document.createElement('div');
-     newDiv.id = 'r'+i;
-     newDiv.className = 'ansbox';
-     toAdd.appendChild(newDiv);
-  }
-  
-  document.appendChild(toAdd);
- 
+const calendar = document.querySelector(".app-calendar");
+
+    for(let day = 1; day < 31; day++){
+
+        calendar.insertAdjacentHTML("beforeend", `<div class="day">${day}</div>`);
+    }
+
