@@ -7,17 +7,14 @@ h1 {
     text-align: center;
 }
 
-.dias {
+.app-calendar {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    background-color:white;
-    padding: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background: white;
+    text-align: center;
 }
 
-.dias > div {
-    background-color: rgba(136, 36, 218, 0.8);
-    border: 1px solid black;
-    text-align: center;
-    font-size: 80px;
-  }
+.day {
+    border: red solid 1px;
+}
